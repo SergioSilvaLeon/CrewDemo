@@ -4,8 +4,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CrewDemoApplication
+class RestApplication
 
 fun main(args: Array<String>) {
-	runApplication<CrewDemoApplication>(*args)
+    runApplication<RestApplication>(*args)
+    println("Hello world!")
 }

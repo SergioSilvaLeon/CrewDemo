@@ -1,6 +1,2 @@
-pluginManagement {
-	repositories {
-		gradlePluginPortal()
-	}
-}
 rootProject.name = "CrewDemo"
+include("Rest-App")
